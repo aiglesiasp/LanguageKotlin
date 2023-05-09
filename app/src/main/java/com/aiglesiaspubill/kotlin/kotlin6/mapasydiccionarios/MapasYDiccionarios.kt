@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `6MapasYDiccionarios` {
+class MapasYDiccionarios {
     private fun maps() {
         //Definicion
         var myMap: Map<String, Int> = mapOf()

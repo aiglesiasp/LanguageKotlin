@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `9Funciones` {
+class Funciones {
 
     private fun funciones() {
         sayHello()

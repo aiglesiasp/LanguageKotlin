@@ -9,24 +9,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //CLASES
-        val clase = `10Clases`(
+        val clase = Clases(
             "Aitor",
-            33, arrayOf(com.aiglesiaspubill.kotlin.`10Clases`.Language.CATALAN, com.aiglesiaspubill.kotlin.`10Clases`.Language.CASTELLANO))
+            33, arrayOf(com.aiglesiaspubill.kotlin.Clases.Language.CATALAN, com.aiglesiaspubill.kotlin.Clases.Language.CASTELLANO))
         println(clase.name)
         //Llamar a una funcion
         clase.getLanguages()
 
-        val clase2 = `10Clases`(
+        val clase2 = Clases(
             "Aitor",
             33,
-            arrayOf(com.aiglesiaspubill.kotlin.`10Clases`.Language.CATALAN, com.aiglesiaspubill.kotlin.`10Clases`.Language.CASTELLANO),
+            arrayOf(com.aiglesiaspubill.kotlin.Clases.Language.CATALAN, com.aiglesiaspubill.kotlin.Clases.Language.CASTELLANO),
             arrayOf(clase))
 
         println("${clase2.friends?.first()?.name}")
 
 
         //CLASES ANIDADAS
-        val prueba = `12ClasesAnidadas`.MyPrimeraClase()
+        val prueba = ClasesAnidadas.MyPrimeraClase()
         val sum = prueba.sum(10, 5)
         println("El valor de la suma es $sum")
     }

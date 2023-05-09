@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `4SentenciaWhen` {
+class SentenciaWhen {
 
     private fun sentenciaWhen() {
         val country = "España"

@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `3SentenciasIF` {
+class SentenciasIF {
     private fun sentenciasIF() {
         val myNumber = 10
         //Operadores condicionales

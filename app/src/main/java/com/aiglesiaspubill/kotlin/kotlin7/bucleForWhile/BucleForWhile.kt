@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `7BucleForWhile` {
+class BucleForWhile {
 
     val myArray: List<String> = listOf("Hola", "Adios" , "Hasta luego")
     val myMap: MutableMap<String, Int> = mutableMapOf("Aitor" to 1, "Pedro" to 2, "Anna" to 3)

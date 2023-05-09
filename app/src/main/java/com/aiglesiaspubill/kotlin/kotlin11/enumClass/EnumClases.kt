@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `11EnumClases` {
+class EnumClases {
 
     enum class Direction(val dir: Int) {
         NORTE(1), SUD(-1), ESTE(1), OESTE(-1);

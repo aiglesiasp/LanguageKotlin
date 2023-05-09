@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `5ArraysYArreglos` {
+class ArraysYArreglos {
 
     private fun arraysYArreglos() {
         val name = "Aitor"

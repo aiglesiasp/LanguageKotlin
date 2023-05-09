@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `2TiposDeDatos` {
+class TiposDeDatos {
 
     private fun tiposDeDatos() {
         //STRING

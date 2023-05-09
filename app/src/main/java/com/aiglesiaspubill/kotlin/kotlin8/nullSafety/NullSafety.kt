@@ -1,6 +1,6 @@
 package com.aiglesiaspubill.kotlin
 
-class `8NullSafety` {
+class NullSafety {
 
     fun nullSafety() {
         var myString = "AitorIGelsias"
