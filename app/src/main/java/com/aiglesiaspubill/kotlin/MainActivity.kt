@@ -23,5 +23,11 @@ class MainActivity : AppCompatActivity() {
             arrayOf(clase))
 
         println("${clase2.friends?.first()?.name}")
+
+
+        //CLASES ANIDADAS
+        val prueba = `12ClasesAnidadas`.MyPrimeraClase()
+        val sum = prueba.sum(10, 5)
+        println("El valor de la suma es $sum")
     }
 }
