@@ -2,6 +2,7 @@ package com.aiglesiaspubill.kotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.aiglesiaspubill.kotlin.kotlin10.clases.Clases
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         //CLASES
         val clase = Clases(
             "Aitor",
-            33, arrayOf(com.aiglesiaspubill.kotlin.Clases.Language.CATALAN, com.aiglesiaspubill.kotlin.Clases.Language.CASTELLANO))
+            33, arrayOf(com.aiglesiaspubill.kotlin.kotlin10.clases.Clases.Language.CATALAN, com.aiglesiaspubill.kotlin.kotlin10.clases.Clases.Language.CASTELLANO))
         println(clase.name)
         //Llamar a una funcion
         clase.getLanguages()
@@ -19,14 +20,14 @@ class MainActivity : AppCompatActivity() {
         val clase2 = Clases(
             "Aitor",
             33,
-            arrayOf(com.aiglesiaspubill.kotlin.Clases.Language.CATALAN, com.aiglesiaspubill.kotlin.Clases.Language.CASTELLANO),
+            arrayOf(com.aiglesiaspubill.kotlin.kotlin10.clases.Clases.Language.CATALAN, com.aiglesiaspubill.kotlin.kotlin10.clases.Clases.Language.CASTELLANO),
             arrayOf(clase))
 
         println("${clase2.friends?.first()?.name}")
 
 
         //CLASES ANIDADAS
-        val prueba = ClasesAnidadas.MyPrimeraClase()
+        val prueba = com.aiglesiaspubill.kotlin.kotlin12.clasesAnidadas.ClasesAnidadas.MyPrimeraClase()
         val sum = prueba.sum(10, 5)
         println("El valor de la suma es $sum")
     }
