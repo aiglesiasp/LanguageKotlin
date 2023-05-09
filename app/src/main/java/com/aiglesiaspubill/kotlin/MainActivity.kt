@@ -3,6 +3,8 @@ package com.aiglesiaspubill.kotlin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.aiglesiaspubill.kotlin.kotlin10.clases.Clases
+import com.aiglesiaspubill.kotlin.kotlin13.herencia.Designer
+import com.aiglesiaspubill.kotlin.kotlin13.herencia.Programmer
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,5 +32,12 @@ class MainActivity : AppCompatActivity() {
         val prueba = com.aiglesiaspubill.kotlin.kotlin12.clasesAnidadas.ClasesAnidadas.MyPrimeraClase()
         val sum = prueba.sum(10, 5)
         println("El valor de la suma es $sum")
+
+        //HERENCIA DE CLASES
+        val programmer = Programmer("Aitor", 34, "Kotlin")
+        programmer.work()
+        programmer.sayLanguage()
+        val designer = Designer("Camila", 23)
+        designer.work()
     }
 }
